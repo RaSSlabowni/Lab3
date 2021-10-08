@@ -14,7 +14,7 @@ if yazik == 'RU':
 elif yazik == 'EU':
     for i in soobshenie:
         a = alfavitEU.find(i)   
-        if i in alfavitRU:
+        if i in alfavitEU:
             shifr += alfavitEU[(a + shag)%26]
         else:
             shifr += i
